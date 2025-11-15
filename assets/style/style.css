@@ -151,3 +151,96 @@ i {
   color: #fff;
   font-size: 22px;
 }
+
+.post-image {
+  display: none;
+}
+ 
+span{
+  cursor: pointer;
+}
+ 
+.file-info {
+  margin: 10px 0 0 5px;
+  font-size: 15px;
+  color: #fff;
+}
+ 
+.show-post {
+  width: 700px;              
+  transform: rotateX(180deg);
+}
+ 
+.the-post.data {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 20px 0;
+  transform: rotateX(180deg);
+}
+ 
+.the-post p {
+  color: #000;
+}
+ 
+.post-header{
+  height: 45px;
+}
+ 
+.post-header img{
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+}
+ 
+.post-header h3 {
+  line-height: 45px;
+}
+ 
+.post-header p {
+  color: #000;
+  line-height: 45px;
+}
+ 
+.modal {
+  width: 280px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  cursor: default;
+  overflow: hidden;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform: translate(-50%, -52%);
+      -moz-transform: translate(-50%, -52%);
+          transform: translate(-50%, -52%);
+}
+ 
+.modal.isvisible {
+  z-index: 9999;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+ 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 5555;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgb(16 18 20 / 0.55);
+  cursor: pointer
+}
+ 
+.overlay.isvisible {
+  opacity: 1;
+  visibility: visible;
+}
