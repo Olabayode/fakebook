@@ -71,3 +71,30 @@ ul li {
   align-items: center;
   justify-content: center;
 }
+
+.user-info img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+ 
+span{
+  color: #fff;
+}
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+ 
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0;
+}
