@@ -47,3 +47,27 @@ h1 {
 .nav-list {
   width: 70%;
 }
+
+nav ul{
+  gap: 15px;
+  list-style: none;
+}
+ 
+nav ul li a {
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.25s ease-in-out;
+}
+ 
+nav ul li a:hover {
+  color: #4080ee;
+}
+ 
+ul li {
+  align-items: center;
+  justify-content: center;
+}
