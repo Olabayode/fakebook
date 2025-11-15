@@ -244,3 +244,52 @@ span{
   opacity: 1;
   visibility: visible;
 }
+
+.subscriber-info {
+  display: grid;
+  place-items: center;
+  width: 280px;
+  padding: 20px;
+  background-color: #24252d;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.25);
+  overflow: hidden;
+}
+ 
+.user-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+ 
+.subscriber-info h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 10px 0 0;
+  color: #fff;
+}
+ 
+.subscriber-info .username {
+  margin: 0 0 15px;
+  font-size: 15px;
+  color: rgb(161 164 178);
+}
+ 
+.subscriber-info i {
+  padding-right: 7px;
+  width: 20px;
+  font-size: 14px;
+}
+ 
+.subscriber-info .pages i {
+  font-size: 16px;
+}
+ 
+.subscriber-info .groups i {
+  font-size: 12px;
+}
+ 
+.close {
+  margin-top: 15px;
+  color: #fff;
+}
