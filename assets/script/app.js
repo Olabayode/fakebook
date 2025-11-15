@@ -1,6 +1,6 @@
 'use strict';
 
-import {Subscriber }from "./Subscriber.js";
+import {Subscriber } from "./Subscriber.js";
 
 const textArea = document.querySelector('textarea');
 const profileImage = document.querySelector('.profile');
