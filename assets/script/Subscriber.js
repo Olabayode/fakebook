@@ -1,11 +1,12 @@
 'use strict';
 
-import {User} from 'User.js';
+import {User} from './User.js';
+
 
 export class Subscriber extends User{
-    #pages;
-    #groups;
-    #canMonetize;
+    #pages= [];
+    #groups = [];
+    #canMonetize = true;
 
     constructor(id, name, userName, email, pages, groups, canMonetize){
         super(id, name, userName, email);
@@ -22,4 +23,5 @@ export class Subscriber extends User{
         return `${super.getInfo()} ${this.#pages} ${this.#groups} ${this.#canMonetize}`
     }
 }
+
 

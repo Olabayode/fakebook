@@ -118,7 +118,7 @@ main {
   background-color: #3b3c4559;
 }
 
-.posts-input textarea {
+.post-input textarea {
   width: 100%;
   height: 150px;
   border: none;
@@ -159,19 +159,25 @@ i {
   display: none;
 }
 
+.posted-image {
+    object-fit: contain;
+    width: 100%;
+}    
+
 span{
   cursor: pointer;
 }
 
-.file-detail {
+.file-info {
   margin: 10px 0 0 5px;
   font-size: 15px;
   color: #fff;
 }
 
-.display-post {
+.show-post {
   width: 500px;
-  transform: rotateX(180deg);
+  height: auto;
+  object-fit: contain;
 }
 
 .the-post.data {
@@ -179,7 +185,6 @@ span{
   background-color: #fff;
   border-radius: 4px;
   margin: 20px 0;
-  transform: rotateX(180deg);
 }
 
 .the-post p {
@@ -188,12 +193,13 @@ span{
 
 .post-header{
   height: 45px;
+  justify-content: space-between;
 }
 
 .post-header img{
   border-radius: 50%;
-  height: 42px;
-  width: 42px;
+  height: 45px;
+  width: 45px;
 }
 
 .post-header h3 {

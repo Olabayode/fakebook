@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="./assets/styles/style.css" media="all">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=image" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=image" />
-        <script src="./assets/script/app.js" defer></script>
+        <script src="./assets/script/app.js" type="module"></script>
     </head>
     <body>
     <header class="page-header">
@@ -42,15 +42,15 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="input-text">
-          <form class="posts-input">
-            <textarea placeholder="Any thoughts to share?"></textarea>
+          <form class="post-input">
+            <textarea placeholder="What's on your mind, Pelumi"></textarea>
             <div class="flex space-between">
               <div class="flex">
                 <label for="file-input">
                   <span class="material-symbols-outlined">image</span>
                 </label>
                 <input type="file" id="file-input" accept="image/*" class="post-image">
-                <p class="file-detail"></p>
+                <p class="file-info"></p>
               </div>
               <div>
                 <input type="button" class="post" value="Post">
@@ -58,7 +58,7 @@
             </div>
           </form>
         </div>
-        <section class="display-post">
+        <section class="show-post">
         </section>
       </div>
     </main>
