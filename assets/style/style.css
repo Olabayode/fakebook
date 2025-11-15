@@ -1,5 +1,9 @@
 @charset "utf-8";
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .container {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;    
@@ -9,16 +13,31 @@ body {
   background-color: #171820;
   font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
 }
+<<<<<<< HEAD
  
 .flex {
   display: flex;
 }
  
+=======
+
+
+
+.flex {
+  display: flex;
+}
+
+>>>>>>> selectors-olabayode
 .content {
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
  
+=======
+
+
+>>>>>>> selectors-olabayode
 .space-between {
   justify-content: space-between;
 }
@@ -26,12 +45,21 @@ body {
 p, li {
   color: #fff;
 }
+<<<<<<< HEAD
  
+=======
+
+
+>>>>>>> selectors-olabayode
 .page-header {
   background-color: #3b3c4559;
   line-height: 56px;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 h1 {
   font-size: 25px;
   font-weight: 700;
@@ -39,6 +67,7 @@ h1 {
   color: rgb(20, 103, 248);
   letter-spacing: 1px;
 }
+<<<<<<< HEAD
  
 .logo, .user-info {
   width: 15%;
@@ -53,6 +82,21 @@ nav ul{
   list-style: none;
 }
  
+=======
+
+.logo, .user-info {
+  width: 15%;
+}
+
+.nav-list {
+  width: 70%;
+}
+nav ul{
+    gap: 15px;
+    list-style: none;
+}
+
+>>>>>>> selectors-olabayode
 nav ul li a {
   font-size: 17px;
   font-weight: 600;
@@ -62,17 +106,26 @@ nav ul li a {
   cursor: pointer;
   transition: color 0.25s ease-in-out;
 }
+<<<<<<< HEAD
  
 nav ul li a:hover {
   color: #4080ee;
 }
  
+=======
+
+nav ul li a:hover {
+  color: #4080ee;
+}
+
+>>>>>>> selectors-olabayode
 ul li {
   align-items: center;
   justify-content: center;
 }
 
 .user-info img {
+<<<<<<< HEAD
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -84,6 +137,20 @@ span{
   color: #fff;
 }
  
+=======
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+span{
+    color: #fff;
+}
+
+
+>>>>>>> selectors-olabayode
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -91,7 +158,11 @@ span{
   'GRAD' 0,
   'opsz' 24
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 figure {
   display: flex;
   justify-content: center;
@@ -104,13 +175,20 @@ main {
   place-items: center;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> selectors-olabayode
 .input-text {
   margin-top: 56px;
   padding: 12px;
   height: auto;
+<<<<<<< HEAD
   width: 700px;              
+=======
+  width: 500px;
+>>>>>>> selectors-olabayode
   font-size: 17px;
   border-radius: 4px;
   background-color: #3b3c4559;
@@ -118,7 +196,11 @@ main {
 
 .post-input textarea {
   width: 100%;
+<<<<<<< HEAD
   height: 200px;            
+=======
+  height: 150px;
+>>>>>>> selectors-olabayode
   border: none;
   color: #fff;
   background-color: transparent;
@@ -128,7 +210,11 @@ main {
 input[type="file"], input[type="button"] {
   color: #fff;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 input[type=button], .close {
   height: 35px;
   width: 62px;
@@ -138,6 +224,7 @@ input[type=button], .close {
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
+<<<<<<< HEAD
  
 input[type=button]:hover, .close:hover {
   background-color: #2675fd;
@@ -147,6 +234,18 @@ label {
   margin-top: 10px;
 }
  
+=======
+
+input[type=button]:hover, .close:hover {
+  background-color: #2675fd;
+
+}
+
+label {
+  margin-top: 10px;
+}
+
+>>>>>>> selectors-olabayode
 i {
   color: #fff;
   font-size: 22px;
@@ -155,27 +254,51 @@ i {
 .post-image {
   display: none;
 }
+<<<<<<< HEAD
  
 span{
   cursor: pointer;
 }
  
+=======
+
+.posted-image {
+    object-fit: contain;
+    width: 100%;
+}    
+
+span{
+  cursor: pointer;
+}
+
+>>>>>>> selectors-olabayode
 .file-info {
   margin: 10px 0 0 5px;
   font-size: 15px;
   color: #fff;
 }
+<<<<<<< HEAD
  
 .show-post {
   width: 700px;              
   transform: rotateX(180deg);
 }
  
+=======
+
+.show-post {
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+>>>>>>> selectors-olabayode
 .the-post.data {
   padding: 10px;
   background-color: #fff;
   border-radius: 4px;
   margin: 20px 0;
+<<<<<<< HEAD
   transform: rotateX(180deg);
 }
  
@@ -202,6 +325,32 @@ span{
   line-height: 45px;
 }
  
+=======
+}
+
+.the-post p {
+  color: #000;
+  padding-left: 40px;
+}
+
+.post-header{
+  height: 45px;
+  justify-content: space-between;
+
+}
+
+.post-header img{
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+
+.post-header p {
+  color: #000;
+}
+
+>>>>>>> selectors-olabayode
 .modal {
   width: 280px;
   position: fixed;
@@ -217,7 +366,11 @@ span{
       -moz-transform: translate(-50%, -52%);
           transform: translate(-50%, -52%);
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .modal.isvisible {
   z-index: 9999;
   opacity: 1;
@@ -226,7 +379,11 @@ span{
      -moz-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .overlay {
   position: fixed;
   top: 0;
@@ -239,7 +396,11 @@ span{
   background-color: rgb(16 18 20 / 0.55);
   cursor: pointer
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .overlay.isvisible {
   opacity: 1;
   visibility: visible;
@@ -255,31 +416,48 @@ span{
   box-shadow: 0 4px 8px rgb(0 0 0 / 0.25);
   overflow: hidden;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .user-image {
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .subscriber-info h2 {
   font-size: 28px;
   font-weight: 800;
   margin: 10px 0 0;
   color: #fff;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .subscriber-info .username {
   margin: 0 0 15px;
   font-size: 15px;
   color: rgb(161 164 178);
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> selectors-olabayode
 .subscriber-info i {
   padding-right: 7px;
   width: 20px;
   font-size: 14px;
 }
+<<<<<<< HEAD
  
 .subscriber-info .pages i {
   font-size: 16px;
@@ -367,4 +545,18 @@ span{
   input[type=button] {
     width: 100%;
   }
+=======
+
+.subscriber-info .pages i {
+  font-size: 16px;
+}
+
+.subscriber-info .groups i {
+  font-size: 12px;
+}
+
+.close {
+  margin-top: 15px;
+  color: #fff;
+>>>>>>> selectors-olabayode
 }
