@@ -189,11 +189,13 @@ span{
 
 .the-post p {
   color: #000;
+  padding-left: 40px;
 }
 
 .post-header{
   height: 45px;
   justify-content: space-between;
+
 }
 
 .post-header img{
@@ -202,13 +204,9 @@ span{
   width: 45px;
 }
 
-.post-header h3 {
-  line-height: 45px;
-}
 
 .post-header p {
   color: #000;
-  line-height: 45px;
 }
 
 .modal {
