@@ -300,7 +300,6 @@ span{
   margin-top: 15px;
   color: #fff;
 }
-@charset "utf-8";
  
 .container {
   width: min(100% - 30px, 1080px);
